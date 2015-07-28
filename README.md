@@ -91,6 +91,12 @@ job_two = job_one.copy
 > https://api.crowdflower.com/v1/jobs/000000.json
 
 ```ruby
+  job.state
+```
+
+**Response**
+
+```json
 {
   "id":000000,
   "options":{
